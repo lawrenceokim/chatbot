@@ -111,7 +111,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col h-screen bg-red-200 p-4">
+    <div className="flex flex-col h-screen bg-gray-700 p-4">
       <div className="flex items-center justify-between mb-4">
         <h1 className="text-2xl font-bold">Gemini Chat</h1>
       </div>
@@ -150,7 +150,7 @@ export default function Home() {
           className="flex-1 p-2 rounded-l-md border-b border-l focus:outline-none focus:border-blue-400 text-black"
         />
         <button
-          className="p-2 text-white rounded-r-md hover:bg-opacity-80 focus:outline-none"
+          className="px-3 h-full bg-green-500 ml-3 text-white rounded-r-md hover:bg-opacity-80 focus:outline-none"
           onClick={handleSendMessage}
         >
           Send
